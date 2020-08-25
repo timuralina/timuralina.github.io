@@ -1,0 +1,268 @@
+body {
+    font: Lato;
+    font-weight: 400;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url('img/header.jpg') no-repeat center top;
+    height: 524px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 50px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Old Standard TT', serif;
+    margin: 50px;
+}
+section {
+    margin: 0 auto;
+    padding: 100px 50px;
+
+}
+
+.time {
+    font-family: Old Standard TT;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;   
+}
+
+.prog {
+    text-align: center;
+    margin-top: 50px;
+}
+.sec5 {
+    padding-bottom: 0;
+}
+.progText {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    width: 590px;
+    margin: 0 auto;
+}
+
+.line {
+    width: 468px;
+    background: #000000;
+}
+
+.sec2   p {
+    margin: 0 auto  ;
+    width: 808px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    padding-top: 30px;
+}
+
+.sec3 p {
+    margin: 0 auto  ;
+    width: 808px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    padding-top: 30px;
+}
+
+.sec3 div {
+    height: auto;
+    width: 90%;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.sec3 img {
+    width: 100%;
+}
+.sec4 {
+    background: #F0F0F0;
+}
+.map img {
+    width: 100%;
+}
+.sec4 p {
+    margin: 0 auto  ;
+    width: 808px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    padding-top: 30px;
+
+}
+
+.sec5 div {
+    width: 1128px;
+    height: 944px;
+    margin: 0 auto;
+    
+
+}
+
+.sec5 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.sec5 img{
+    width: 90%;
+}
+
+.sec6 {
+    padding-top: 20px;
+}
+.color div {
+    width: 93px;
+    height: 93px;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    margin: 0px 20px;
+    
+}
+
+.color {
+    width: 800px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.col1 {
+    background: #FAF0E6;
+}
+.col2 {
+    background: #EFDECD;
+}
+.col3 {
+    background: #FADADD;
+}
+.col4 {
+    background: #FFC6D3;
+}
+.col5 {
+    background: #CCDCDE;
+}
+.col6 {
+    background: #BED4AB;
+}
+
+.map{
+    max-width: 1050px;
+    width: 100%;
+    height: 539px;
+    left: 199px;
+    top: 4403px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.button {
+    width: 308px;
+    height: 86px;
+    border-radius: 10px;
+    background: #0067C6;
+    box-shadow: 4px 4px 20px #0067C6, inset 4px 4px 4px rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.sec6 p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.willWait {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    padding-top: 50px;
+}
+
+.botTxt {
+    width: 801px;
+    font-family: Old Standard TT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    color: #000000;
+    padding-top: 80px;
+    
+}
+
+@media screen and (max-width: 1130px) {
+    .sec5 div {
+        width: 80%;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .sec4 h2 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .sec6 h2 {
+        font-size: 30px;
+    }
+
+    .sec6 {
+        margin-top: -200px;
+    }
+
+    .button {
+        width: 400px;
+        height: 120px;
+    }
+}
